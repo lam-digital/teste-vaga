@@ -1,26 +1,27 @@
 # Desafio </h1>
+Desenvolver uma aplicação web, com [ReactJS](https://pt-br.reactjs.org/), para buscar repositórios do [Github](https://www.github.com) pelo nome e se o mesmo existir deve adicioná-lo em um lista. Nessa lista contém todos os repositórios adicionados e cada linha possui um botão de "Ver informações" que navega o usuário para outra página exibindo informações do reposítorio.
 
-Desenvolver uma aplicação web ou mobile responsável por buscar usuários via API Github.
+# Instruções para realizar teste </h2>
+Faça um fork desse repositório e faça o desafio em um branch com seu nome (exemplo: william-felipe) crie um pull request contendo seu contato na descrição e todas as instrução para rodar o projeto.
 
-# Instruções para realizar teste </h1>
+A aplicação deve possuir duas interfaces. A primeira deve conter o buscador de repositórios com um botão de adicionar reposítório a sua lista. Essa lista de repositórios deve ser exibida logo abaixo do buscador. A segunda interface de exibir informações como nome, imagem do dono, nome do dono, quantidade de stars e quantidade de forks.
 
-- Utilizar api do Github: https://developer.github.com/v3/users/
-- Utilizar **REACT** ou **REACT NATIVE**;
+OBS 1: Os itens descritos são obrigatórios estar na interface da segunda tela.
+OBS 2: O candidato pode adicionar mais itens na segunda interface se caso preferir para complementar seu layout. 
 
-* Fork esse repositório e faça o desafio numa branch com o seu nome (exemplo: nome-sobrenome);
-* Assim que concluir o seu desafio, abra um pull request com suas alterações
+# Ferramentas que podem auxiliar </h3>
+- API do Github: https://developer.github.com/v3/repos/
+- ReactJS: https://pt-br.reactjs.org/docs/getting-started.html
+- Axios: https://github.com/axios/axios
+- React Router DOM: https://reactrouter.com/web/guides/quick-start
 
 # Requesitos Funcionais
-
-- O usuário receberá uma mensagem de erro quando o botão de busca for clicado se os valores dos dados não forem inseridos;
-- Caso não encontre o perfil, exibir um mensagem de perfil não encontrado;
-- sistema deve listar as buscas realizadas na mesma pagina de busca;
-- O sistema deve exibir as informções do perfil do usuario em uma nova página;
-- utilizar navegação;
+- O usuário deve adicionar repositórios em uma lista;
+- O usuário não deve adicionar um reposítório quando não haver valores no campo de busca;
+- O sistema deve exibir uma mensagem de erro caso não encontre um repositório com o nome;
+- O sistema deve exibir informações de um repositório;
 
 # O que será avaliado </h3>
-
-- clareza, limpeza e organização do código;
-- resultado funcional;
-- criatividade na criação das telas;
-- Não esqueça de documentar o processo necessário para rodar a aplicação;
+- Clareza, limpeza e organização do código;
+- Resultado funcional;
+- Layout das interfaces;
