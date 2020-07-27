@@ -5,7 +5,6 @@
 
 - O usuário receberá uma mensagem de erro quando o botão de busca for clicado se os valores dos dados não forem inseridos;
 - Caso não encontre o perfil, exibir um mensagem de perfil não encontrado;
-- Criar uma tela para exibir perfil;
 - sistema deve listar as buscas realizadas na mesma pagina de busca;
 - O sistema deve exibir as informções do perfil do usuario em uma nova página;
 - utilizar navegação (router-dom);
